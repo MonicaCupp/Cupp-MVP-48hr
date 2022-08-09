@@ -22,7 +22,22 @@ module.exports = {
           'css-loader',
           'sass-loader'
         ],
+      },
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: {
+          loader: 'babel-loader',
+          options: {
+            presets: ['@babel/preset-env']
+          }
+        }
       }
     ]
   }
 }
+
+/*
+TODO Add asset folder to src and resource loader to devEnv
+TODO Create ignore file and add node modules and pkg lock
+*/
