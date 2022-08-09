@@ -1,0 +1,29 @@
+{
+  "name": "cupp-mvp-48hr",
+  "version": "1.0.0",
+  "description": "This is a basic picture dictionary app designed to allow small children with communication challenges to communicate.",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MonicaCupp/Cupp-MVP-48hr.git"
+  },
+  "author": "Monica Cupp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MonicaCupp/Cupp-MVP-48hr/issues"
+  },
+  "homepage": "https://github.com/MonicaCupp/Cupp-MVP-48hr#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.19",
+    "pg": "^8.7.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
