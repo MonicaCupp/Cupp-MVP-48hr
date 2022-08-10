@@ -38,6 +38,6 @@ module.exports = {
 }
 
 /*
-TODO Add asset folder to src and resource loader to devEnv
-TODO Create ignore file and add node modules and pkg lock
+TODO Add assett folder to src and resource loader to devEnv
+TODO Add anything new to readme
 */
