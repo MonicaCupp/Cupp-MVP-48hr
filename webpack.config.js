@@ -57,8 +57,3 @@ module.exports = {
     }),
   ],
 }
-
-/*
-
-TODO Add anything new to readme
-*/
