@@ -5,7 +5,7 @@ import styled from 'styled-components';
 //-------------- STYLING ---------------//
 const Container = styled.div`
   height: 60px;
-  background-color: #76D7C4;
+  background-color: #83677B;
   color: white;
 `
 const Wrapper = styled.div`
@@ -28,7 +28,7 @@ const TitleBar = () => {
       <Wrapper>
         <Center>
           <Logo>
-            Right now, I need...
+            I want to...
           </Logo>
         </Center>
       </Wrapper>
